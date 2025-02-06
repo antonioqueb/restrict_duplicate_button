@@ -4,8 +4,8 @@
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
-            <!-- Ocultar el botón "Duplicar" si el usuario no tiene el grupo -->
-            <xpath expr="//button[@name='copy']" position="attributes">
+            <!-- Buscar por el botón con la acción "duplicate" -->
+            <xpath expr="//button[@name='action_duplicate']" position="attributes">
                 <attribute name="groups">restrict_duplicate_button.group_allow_duplicate</attribute>
             </xpath>
         </field>
