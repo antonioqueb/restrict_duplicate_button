@@ -3,6 +3,7 @@
     'version': '17.0.1.0.0',
     'summary': 'Restringe el botón de duplicar en órdenes de venta a usuarios específicos.',
     'author': 'Tu Nombre o Empresa',
+    'license': 'AGPL-3',
     'category': 'Sales',
     'depends': ['sale', 'sale_management'],
     'data': [
